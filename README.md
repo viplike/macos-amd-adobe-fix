@@ -39,3 +39,6 @@ sudo amdfriend --in-place --sign /Applications/Adobe\ Photoshop\ 2024/Adobe\ Pho
 
 ## Other
 Try to use the same method to fix other adobe products if there are any errors. 
+
+## Thanks to:
+- https://macos86.it/topic/5603-discussion-amdfriend-for-almost-all-of-your-library-patching-needs
