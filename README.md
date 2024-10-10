@@ -12,7 +12,6 @@ sudo amdfriend --dry-run --directories /Applications/Adobe\ Premiere\ Pro\ 2024/
 3) patch with --in-place --sign flags
 4) should be similar to this:
 ```
-sudo amdfriend --dry-run --directories /Applications/Adobe\ Photoshop\ 2024/Adobe\ Photoshop\ 2024.app/Contents/Frameworks | grep "Routines found"  
 sudo amdfriend --in-place --sign /Applications/Adobe\ Photoshop\ 2024/Adobe\ Photoshop\ 2024.app/Contents/Frameworks/libippik0.dylib  
 sudo amdfriend --in-place --sign /Applications/Adobe\ Photoshop\ 2024/Adobe\ Photoshop\ 2024.app/Contents/Frameworks/libmkl_avx2.2.dylib  
 sudo amdfriend --in-place --sign /Applications/Adobe\ Photoshop\ 2024/Adobe\ Photoshop\ 2024.app/Contents/Frameworks/libmkl_mc3.2.dylib  
