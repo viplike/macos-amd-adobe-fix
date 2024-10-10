@@ -1,5 +1,5 @@
 # MacOS AMD Adobe Fix
-Hi! There is a really working macos amd fix for adobe products: photoshop / premier and etc (hackintosh). Tested on my Ryzentosh. 
+Hi! Here is a really working macos amd fix for adobe products: photoshop / premier and etc (hackintosh). Tested on my Ryzentosh. 
 
 Before any manipulations install amdfriend from this repo: https://github.com/NyaomiDEV/AMDFriend. It's archived, so you can just download from releases section and add it to your path
 
