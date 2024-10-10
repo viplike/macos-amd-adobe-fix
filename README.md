@@ -28,11 +28,12 @@ sudo amdfriend --dry-run --directories /Applications/Adobe\ Premiere\ Pro\ 2024/
 3) patch with --in-place --sign flags
 4) should be similar to this:
 ```
-sudo amdfriend --in-place --sign /Applications/Adobe\ Photoshop\ 2024/Adobe\ Photoshop\ 2024.app/Contents/Frameworks/libippik0.dylib
-sudo amdfriend --in-place --sign /Applications/Adobe\ Photoshop\ 2024/Adobe\ Photoshop\ 2024.app/Contents/Frameworks/libmkl_avx2.2.dylib
-sudo amdfriend --in-place --sign /Applications/Adobe\ Photoshop\ 2024/Adobe\ Photoshop\ 2024.app/Contents/Frameworks/libmkl_mc3.2.dylib
-sudo amdfriend --in-place --sign /Applications/Adobe\ Photoshop\ 2024/Adobe\ Photoshop\ 2024.app/Contents/Frameworks/libmkl_avx512.2.dylib
-sudo amdfriend --in-place --sign /Applications/Adobe\ Photoshop\ 2024/Adobe\ Photoshop\ 2024.app/Contents/Frameworks/libmkl_core.2.dylib
+sudo amdfriend --in-place --sign /Applications/Adobe\ Premiere\ Pro\ 2024/Adobe\ Premiere\ Pro\ 2024.app/Contents/Frameworks/libmkl_core.1.dylib
+sudo amdfriend --in-place --sign /Applications/Adobe\ Premiere\ Pro\ 2024/Adobe\ Premiere\ Pro\ 2024.app/Contents/Frameworks/libmkl_avx512.1.dylib
+sudo amdfriend --in-place --sign /Applications/Adobe\ Premiere\ Pro\ 2024/Adobe\ Premiere\ Pro\ 2024.app/Contents/Frameworks/libmkl_avx.1.dylib
+sudo amdfriend --in-place --sign /Applications/Adobe\ Premiere\ Pro\ 2024/Adobe\ Premiere\ Pro\ 2024.app/Contents/Frameworks/libmkl_avx2.1.dylib
+sudo amdfriend --in-place --sign /Applications/Adobe\ Premiere\ Pro\ 2024/Adobe\ Premiere\ Pro\ 2024.app/Contents/Frameworks/libmkl_mc3.1.dylib
+sudo amdfriend --in-place --sign /Applications/Adobe\ Premiere\ Pro\ 2024/Adobe\ Premiere\ Pro\ 2024.app/Contents/Frameworks/libiomp5.dylib
 ```
 
 ## Other
